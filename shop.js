@@ -14,7 +14,6 @@ function addToBasket(product) {
   const basket = getBasket();
   basket.push(product);
   localStorage.setItem("basket", JSON.stringify(basket));
-  console.log(basket);
 }
 
 function clearBasket() {
